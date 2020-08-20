@@ -5,7 +5,7 @@ Distribution-agnostic POSIX shell-compliant library for interfacing with system 
 **MAKEFILE IN PROGRESS**
 
 # Usage
-This library can be run directly (ie. by attraching each package_manager_* variable to a shell alias) but its primary use-case would be for use as an operating system-agnostic means of interacting with the system's package manager.
+This library can be run directly (ie. by attaching each package_manager_* variable to a shell alias) but its primary use-case would be for use as an operating system-agnostic means of interacting with the system's package manager.
 This means the file should be sourced, either through
 ```sh
 #!/bin/{bash,zsh,fish}
