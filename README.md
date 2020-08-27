@@ -2,7 +2,9 @@
 Distribution-agnostic POSIX shell-compliant library for interfacing with system package managers
 
 # Installation
-**MAKEFILE IN PROGRESS**
+```sh
+sudo make
+```
 
 # Usage
 This library can be run directly (ie. by attaching each package_manager_* variable to a shell alias) but its primary use-case would be for use as an operating system-agnostic means of interacting with the system's package manager.
