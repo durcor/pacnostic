@@ -9,12 +9,12 @@ This library can be run directly (ie. by attaching each package_manager_* variab
 This means the file should be sourced, either through
 ```sh
 #!/bin/{bash,zsh,fish}
-source /usr/lib/pacnostic.sh
+source /lib/pacnostic.sh
 ```
 or
 ```sh
 #!/bin/sh
-. /usr/lib/pacnostic.sh
+. /lib/pacnostic.sh
 ```
 After sourcing, if one wishes to interface with the system's package manager but is unsure of the operating system in use, they can simply reference one of
 ```sh
