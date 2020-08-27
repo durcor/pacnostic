@@ -6,7 +6,7 @@ case "$(uname)" in
 		case "$(awk -F'=' '/^NAME/{print $2}' /etc/os-release)" in
 			'"Arch Linux"')
 				if pacman -Qq yay >/dev/null; then
-					PACNOSTIC_INSTALL="yay -Syu"
+					PACNOSTIC_INSTALL="yay -Sy"
 					PACNOSTIC_REMOVE="yay -Rs"
 					PACNOSTIC_SEARCH="yay"
 					PACNOSTIC_UPDATE="yay"
